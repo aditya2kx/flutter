@@ -1,4 +1,4 @@
-// Copyright 2018 The Flutter Authors. All rights reserved.
+// Copyright 2018 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -13,9 +13,9 @@ import 'common/network.dart';
 import 'dart/dart_vm.dart';
 import 'runners/ssh_command_runner.dart';
 
-final String _ipv4Loopback = InternetAddress.LOOPBACK_IP_V4.address;
+final String _ipv4Loopback = InternetAddress.LOOPBACK_IP_V4.address; // ignore: deprecated_member_use
 
-final String _ipv6Loopback = InternetAddress.LOOPBACK_IP_V6.address;
+final String _ipv6Loopback = InternetAddress.LOOPBACK_IP_V6.address; // ignore: deprecated_member_use
 
 const ProcessManager _processManager = const LocalProcessManager();
 
